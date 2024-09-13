@@ -3,7 +3,8 @@ local SafeCodes = {}
 local cashA = 250 --<<how much minimum you can get from a robbery
 local cashB = 450 --<< how much maximum you can get from a robbery
 
-CreateThread(function()
+CreateThread(functio
+    
     while true do
         SafeCodes = {
             [1] = math.random(1000, 9999),
